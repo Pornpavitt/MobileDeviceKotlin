@@ -1,0 +1,1 @@
+data class Employee(val name : String ,val gender : String ,val e_mail : String ,val salary : Int)
