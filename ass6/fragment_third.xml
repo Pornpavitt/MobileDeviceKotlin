@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="15dp"
+    tools:context=".ThirdFragment">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/pang"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/friend_b" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arincawut Kanlayanam"
+        android:id="@+id/textNameB"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@id/pang"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnClickThirdFrag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go back My Fragment"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_below="@id/textNameB" />
+</RelativeLayout>
