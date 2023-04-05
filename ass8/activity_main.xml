@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/txtList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Employee Information"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#4e6cef"
+        android:layout_marginTop="30dp"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/btnEmployee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/addemployee"
+        android:padding="10dp"
+        android:background="#fff176"
+        android:layout_alignParentRight="true"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:layout_marginTop="6dp"
+        android:layout_below="@id/btnEmployee"/>
+</RelativeLayout>
