@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu1"
+        android:title="Fist Fragment"
+        android:icon="@drawable/ic_baseline_filter_1_24"/>
+    <item android:id="@+id/menu2"
+        android:title="Second Fragment"
+        android:icon="@drawable/ic_baseline_filter_2_24"/>
+    <item android:id="@+id/menu3"
+        android:title="Third Fragment"
+        android:icon="@drawable/ic_baseline_filter_3_24"/>
+    <item android:id="@+id/menu4"
+        android:title="Profile"
+        android:icon="@drawable/ic_baseline_filter_4_24"/>
+</menu>

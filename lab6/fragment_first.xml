@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3EDBC"
+    android:padding="15dp"
+    tools:context=".FirstFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is a first fragment. "
+        android:layout_marginBottom="10dp"
+        android:layout_above="@+id/btnClickFirstFrag"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnClickFirstFrag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click to secound fragment."
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>
